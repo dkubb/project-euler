@@ -1,3 +1,5 @@
 main = print answer
 
-answer = sum [ n | n <- [ 1..999 ], mod n 3 == 0 || mod n 5 == 0 ]
+answer = sum [ n | n <- [ 1..999 ], divisible n 3 || divisible n 5 ]
+  where
+    divisible n d = mod n d == 0
