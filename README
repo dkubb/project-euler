@@ -1,0 +1,14 @@
+Project Euler in Haskell
+------------------------
+
+This is a project where I try to solve the questions from Project Euler using Haskell, a language which I am just starting to learn.
+
+I can't guarantee anything I do will be idiomatic Haskell but I do plan on making several passes over the questions.
+
+Each folder corresponds with a Project Euler question and there may be multiple .hs per folder, each with a different solution I've found. Ideally I'm trying to solve each problem 3 ways:
+
+  - Most idiomatic (probably multiple solutions)
+  - Shortest
+  - Fastest
+
+Sometimes these 3 will overlap, which is great. Often the questions in Project Euler have shortcuts if you understand the mathematical theory behind it. Most of the time I don't know this, but I hope to fill in those holes as I go.

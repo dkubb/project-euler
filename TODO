@@ -1,0 +1,7 @@
+- #1 Look at arithmetic series solution
+- #2 Look at how to access every nth element in a sequence. Since every 3rd
+  number in the fibonacci sequence is even, we can just walk the sequence,
+  skipping to every 3rd number.
+- #2 There is a "closed form" for computing the fibonacci number. this could be
+  faster than recursion, and may work nicely with walking a list of every 3rd
+  number.
