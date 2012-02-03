@@ -10,7 +10,7 @@ factorize n = factorize' n 1
       in factorize' (div n lm) lm
 
 lowest_multiple n = head $ union [f | f <- trial_factors n, divisible n f] [n]
-trial_factors n   = 2:[3, 5..round $ sqrt $ fromIntegral n]
+trial_factors n   = 2:3:tail [6*k+r | k <- [0..round $ sqrt $ fromIntegral n], r <- [1,5]]
 divisible n d     = mod n d == 0
 
 answer = factorize 600851475143
