@@ -2,7 +2,7 @@ import Data.List.Ordered (union)
 
 main = print answer
 
-factorize n = factorize' n 0
+factorize n = factorize' n 1
   where
     factorize' 1 f = f
     factorize' n _ =
