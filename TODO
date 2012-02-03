@@ -5,5 +5,5 @@
 - #2 There is a "closed form" for computing the fibonacci number. this could be
   faster than recursion, and may work nicely with walking a list of every 3rd
   number.
-- #3 Restrict the trial factors to the list of prime numbers less than the
-  square root of the number.
+- #3 Use a prime wheel to limit the trial factor size further
+- #3 Restrict the trial factors to the list of prime numbers
