@@ -8,7 +8,7 @@ factorize n = factorize' n 0
       in factorize' (div n lm) lm
 
 lowest_multiple n = head [f | f <- trial_factors n, divisible n f]
-trial_factors n   = [2..]
+trial_factors n   = [2..n]
 divisible n d     = mod n d == 0
 
 answer = factorize 600851475143
