@@ -6,3 +6,7 @@
   faster than recursion, and may work nicely with walking a list of every 3rd
   number.
 - #3 Restrict the trial factors to the list of prime numbers
+- #4 Need to find a way to bounce back and forth between the two lists, always
+  multiplying the highest possible numbers, so that I can just take the head of
+  the lazy list for the answer, rather than having to evaluate every
+  combination.
