@@ -1,3 +1,6 @@
 main = print answer
 
-answer = sum [1..100]^2 - sum [ n^2 | n <- [1..100] ]
+sumOfSquares = sum . map (^2)
+squareOfSums = (^2) . sum
+
+answer = squareOfSums [1..100] - sumOfSquares [1..100]
